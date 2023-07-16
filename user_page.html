@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="background.jpg" type="image/icon type" id="icon">
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="JavaScript.js" defer></script>
+    <meta charset="UTF-8">
+    <title>Colibri-UserPageInfo</title>
+</head>
+<body background="background.jpg">
+    <div id="all-body">
+        <div id="header-section">
+            <div id="header-section-Left">
+
+                <div class="page-direction-button">
+
+                    <a href="/Booking"><i className='back-button'></i>Back</a>
+
+                </div>
+            </div>
+            <div class="nav">
+                <input id="navtoggle" type="checkbox"/>
+                <input id="deletetoggle" type="checkbox"/>
+                <div class="toggleNotifications">
+                    <div class="count">
+                        <div class="num">1</div>
+                        <div class="num">2</div>
+                        <div class="num">3</div>
+                        <div class="num">4</div>
+                    </div>
+                    <label class="show" for="navtoggle"><i class="material-icons"></i></label>
+                    <div class="notifications">
+                        <div class="btnbar">
+                            <div class="text full">You've got mail</div>
+                            <div class="text empty">Would you like to restore?</div>
+                            <label class="delete" for="deletetoggle"><i class="material-icons full">delete</i><i class="material-icons empty">restore</i></label>
+                        </div>
+                        <div class="groupofnotes">
+                            <div class="note"><i class="material-icons">mail</i> This is a notification</div>
+                            <div class="note"><i class="material-icons">mail</i> You've got mail</div>
+                            <div class="note read"><i class="material-icons">drafts</i> The Newsletter</div>
+                            <div class="note read"><i class="material-icons">drafts</i> Interview at 2am</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="userPageInfo-section">
+            <div id="left-section">
+
+                <div id="UserAndPassword">
+                    <div id="loginUser">Current password</div>
+                    <input type="text" id="write-Login" name="write" placeholder="Enter username"><br>
+                    <div id="password">New password</div>
+                    <input type="password" maxlength ="10" minlength ="5" id="write-Password" name="write" placeholder="Enter Password"><br>
+
+                </div>
+                <div id="EditAndSave-left">
+                    <button onclick="validate()" id="save">Save</button>
+
+                </div>
+
+
+            </div>
+
+            <div id="right-section">
+                <div id="information">
+                    <div id="email">More information abou you</div>
+                    <div id="birthday">Birthday</div>
+                    <input type="date" id="write-Birthday" name="write" placeholder="Enter birthday"><br>
+                    <div id="address">Address</div>
+                    <input type="text" id="write-address" name="write" placeholder="Enter address"><br>
+                    <div id="phoneNumber">Phone Number</div>
+                    <input type="text" id="write-PhoneNumber" maxlength ="10" minlength ="10" name="write" placeholder="Enter your phone number"><br>
+
+
+
+                </div>
+                <div id="EditAndSave-right">
+                    <button onclick="myFunction()" id="save2">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
