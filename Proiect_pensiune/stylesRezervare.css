@@ -1,0 +1,21 @@
+body{
+    background-color: #232323;
+}
+
+#room-selection option{
+    background-color: #232323;
+    color: #937D08;
+}
+
+#room-selection{
+    background-color: #232323;
+    color: #937D08;
+    width:100%;
+    padding:8px 5px;
+    background:linear-gradient(#1f2124, #27292c);
+    border:1px solid #232323;
+    box-shadow:
+            0 1px 0 rgb(147 125 8);
+    border-radius:0.3em;
+    margin-bottom:20px;
+}

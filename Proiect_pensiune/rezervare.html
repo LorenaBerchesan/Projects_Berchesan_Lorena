@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylesRegister.css"/>
+    <link rel="stylesheet" href="stylesHome2.css"/>
+    <link rel="stylesheet" href="stylesLogIn.css"/>
+    <link rel="stylesheet" href="stylesRezervare.css"/>
+    <script src="js.js"></script>
+</head>
+<body>
+<div class="main">
+<div class="main-header">
+
+    <div id="allButton">
+        <li><a href="logIn.html">Log in</a></li>
+        <li><a href="galery.html">Gallery</a></li>
+        <li><a href="https://www.google.com/maps/dir//pensiunea+redabel/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x474976b1f6820c2f:0xe9dbe1729712d55f?sa=X&ved=2ahUKEwj7peTr2-39AhXnhP0HHWLrCswQ9Rd6BAhmEAQ">Location</a></li>
+
+    </div>
+
+    <div class="header-social">
+
+        <ul>
+            <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100063621426315" class="fa fa-facebook"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a target="_blank" href="https://www.instagram.com/pensiunearedabel/" class="fa fa-instagram"><i class="fab fa-instagram"></i></a></li>
+
+        </ul>
+    </div>
+    </div>
+    <div id="bodySection">
+        <form>
+            <h1>Booking</h1>
+            <div class="inset">
+
+                <p>
+                    <label for="adults">Adults</label>
+                    <input type="number" name="adults" id="adults" required>
+                </p>
+                <p>
+                    <label for="children">Children</label>
+                    <input type="number" name="children" id="children" required>
+                </p>
+                <p>
+                    <label for="checkIn">Check-in Date</label>
+                    <input type="date" name="checkIn" id="checkIn" required>
+                </p>
+                <p>
+                    <label for="checkOut">Check-out Date</label>
+                    <input type="date" name="checkOut" id="checkOut" required>
+                </p>
+                <p>
+                    <label  for="room-selection">Select Room Preference</label>
+                    <select  id="room-selection" name="room_preference" required>
+                        <option value="">Choose a Room from the List</option>
+                        <option value="connecting">Connecting</option>
+                        <option value="adjoining">Adjoining</option>
+                        <option value="adjacent">Adjacent</option>
+                    </select>
+                </p>
+
+                <p class="p-container">
+
+                    <button name="go" id="go"><a href="home2.html">Book the rooms</a></button>
+
+                </p>
+            </div>
+        </form>
+
+    </div>
+</div>
+</div>
+</div>
+</body>
+</html>

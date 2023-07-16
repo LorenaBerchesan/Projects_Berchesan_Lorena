@@ -1,0 +1,8 @@
+<section class="container">
+                    <h1>
+                        <span class="title">Pensiunea</span>
+                        <span class="title">Redabel</span>
+
+                    </h1>
+
+                </section>
