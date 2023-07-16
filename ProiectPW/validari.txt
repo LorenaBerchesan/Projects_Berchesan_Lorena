@@ -1,7 +1,0 @@
-SELECT * FROM `rezervari` WHERE 1;
-CREATE TRIGGER 'validate_data' BEFORE INSERT ON rezervari FOR EACH ROW 
-BEGIN 
-IF NEW.'checkIn' < CURDATE() AND NEW.'checkIn'> NEW.'checkOUT' THEN
-SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Data trebuie sa fie ulterioara datei curente';
- END IF;
-END;

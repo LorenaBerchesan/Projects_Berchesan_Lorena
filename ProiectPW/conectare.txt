@@ -1,2 +1,0 @@
-email: test@test.ro
-parola: test123
