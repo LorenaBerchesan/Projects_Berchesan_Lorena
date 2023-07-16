@@ -1,0 +1,258 @@
+body {
+    margin: 0;
+    background-color: #444444;
+}
+
+
+#header-section{
+    background-color: black;
+    color: white;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+#big-section{
+    width: 100%;
+}
+
+#img{
+
+    max-width: 20%;
+    height: auto;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+#sound{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+#left-section{
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+#right-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#big-section{
+    background-color: #444444;
+    width: 100%;
+
+
+}
+
+
+#sound, #r1, #r2, #r3{
+    cursor: pointer;
+}
+
+#r3{
+    background-color: #7ABAFB;
+    border-radius: 30px;
+    padding: 10px 10px;
+
+}
+#r1, #r2, #r3{
+    margin-right: 30px;
+}
+
+#tables{
+    background-color: #444444;
+
+    height: 750px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+
+}
+
+#section-1{
+    background: url("The-right-DJ-can-improve-an-event.png");
+
+    height: 300px;
+    background-size: cover;
+    color: white;
+    font-size: 60px;
+    font-family: Forte;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 65px;
+}
+
+#text{
+    padding: 50px;
+
+}
+
+#section-2{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+
+
+
+.card{
+    display: inline;
+
+    text-align: center;
+    background-color: white;
+
+}
+
+#c1t1, #c1t3, #c1t4, #c2t1, #c2t3, #c2t4, #c3t1, #c3t3, #c3t4, #c4t1, #c4t3, #c4t4{
+    opacity: 0.8;
+
+}
+
+#c1t2, #c2t2, #c3t2, #c4t2{
+    color: black;
+    font-family: Forte;
+    font-size: 20px;
+}
+
+#c1t5, #c2t5, #c3t5, #c4t5{
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 0 10px 0;
+    margin-left: 40px;
+    margin-right: 40px;
+
+    margin-bottom: 10px;
+    font-family: Forte;
+    cursor: pointer;
+}
+
+#c1t1, #c1t2, #c1t3, #c1t4, #c1t5, #c2t1, #c2t2, #c2t3, #c2t4, #c2t5, #c3t1, #c3t2, #c3t3, #c3t4, #c3t5, #c4t1, #c4t2, #c4t3, #c4t4, #c4t5{
+    padding: 7px 0;
+}
+
+#section-4{
+    color: #756E6F;
+    background-color: #756E6F;
+    padding: 1000px;
+}
+
+#c1t1, #c1t2, #c1t3, #c1t4, #c2t1, #c2t2, #c2t3, #c2t4, #c3t1, #c3t2, #c3t3, #c3t4, #c4t1, #c4t2, #c4t3, #c4t4{
+    text-align: initial;
+}
+
+#c1t1, #c1t4, #c2t1, #c2t4, #c3t1, #c3t4, #c4t1, #c4t4{
+    font-size: 15px;
+}
+
+#c1t3, #c2t3, #c3t3, #c4t3{
+    font-size: 10px;
+}
+
+#down1{
+
+    padding: 0 40px;
+}
+
+#down2{
+
+    padding: 0 40px;
+}
+
+#down3{
+
+    padding: 0 40px;
+}
+
+#down4{
+
+    padding: 0 40px;
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin-right: 15px;
+    color:#79BAF7;
+    background-color: black;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+    margin-right: 15px;
+    color:#79BAF7;
+    background-color: black;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    margin-right: 15px;
+    color:#79BAF7
+    background-color: black;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+    margin-right: 15px;
+    color:#79BAF7;
+    background-color: black;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    margin-right: 15px;
+    color:#79BAF7;
+    background-color: black;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+    margin-right: 15px;
+    color:#79BAF7;
+    background-color: black;
+}
+
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+    margin-right: 15px;
+    color:black;
+    background-color: #79BAF7;
+}
+
+#icons{
+
+    color: #7ABAFB;
+    display: flex;
+    align-items: center;
+
+
+}
+
+#c1t4, #c2t4, #c3t4, #c4t4{
+    height: 55px;
+}
