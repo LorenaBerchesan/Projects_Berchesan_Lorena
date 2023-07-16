@@ -1,0 +1,11 @@
+{
+  "terminale": ["a","b"],
+  "nonTerminale": ["S","A","B"],
+  "stareInitiala": "S",
+  "productii": {
+    "S": ["aA","bB","b","eps"],
+    "A": ["aB","a","bA"],
+    "B": ["aB","a"]
+  }
+
+}
