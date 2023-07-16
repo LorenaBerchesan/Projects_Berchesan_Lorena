@@ -1,0 +1,155 @@
+body{
+
+    background-color: #0C131D;
+}
+
+#all-page{
+    width: 100%;
+}
+
+#header-section{
+    background-color: #0E1621;
+    color: #0E1621;
+    height: 20px;
+
+}
+
+
+#big-section {
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-right: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+table{
+    color: #FBFFFF;
+    border-spacing: 0;
+    width: 100%;
+}
+
+th{
+    color: #7F858D;
+    border-bottom: 1pt solid black;
+    border-top-color: 1pt solid black;
+
+}
+
+td,th{
+    padding: 11px;
+}
+
+
+
+#market{
+    display: flex;
+}
+
+#zero{
+    color: #7F858D;
+}
+
+#USD-Value-column{
+    color: #7F858D;
+}
+
+#photo{
+    border-radius: 30%;
+    margin-right: 10px;
+}
+
+#market-column{
+    display: flex;
+    margin-right: 50px;
+    color: #FBFFFF;
+}
+
+#USD-Value-column{
+    margin-right: 50px;
+    color: #FBFFFF;
+    text-align: end;
+    padding: 0 40px;
+}
+#24h-Change-column-green{
+    margin-right: 50px;
+    color: #4A9672;
+
+}
+
+#24h-Change-column-red{
+    margin-right: 50px;
+    color: #A07E7C;
+
+}
+
+#24h-Change-column{
+    text-align: end;
+}
+
+#24h-high-column{
+    margin-right: 50px;
+    color: #FBFFFF;
+    text-align: end;
+}
+
+#24h-low-column{
+    margin-right: 50px;
+    color: #FBFFFF;
+    text-align: end;
+}
+
+#24h-volume-column{
+    margin-right: 50px;
+    color: #FBFFFF;
+    text-align: end;
+}
+
+#last-price-column{
+    margin-right: 50px;
+    color: #FBFFFF;
+    text-align: end;
+}
+
+#name{
+    display: flex;
+    text-transform: uppercase;
+}
+
+#cap-market{
+    background-color: #1B212E;
+
+}
+
+#subname{
+    color: #6D7280;
+    font-size: 12px;
+}
+
+#24h-Change-column-green{
+    color: #42806D;
+}
+
+#24h-Change-column-red{
+    color: #A17C79;
+}
+
+#trade-button{
+    background-color: #262D3D;
+    color: #D2D6DF;
+    border-radius: 0px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 10px;
+}
+
+#2line{
+    background-color: #1B2330;
+}
+
