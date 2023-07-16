@@ -1,0 +1,251 @@
+body{
+    background-color: #FFFFFF;
+    width: 100%;
+}
+
+
+
+#header-secion{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+
+
+#menu{
+    width: 20px;
+}
+#menu-icon{
+    width: 15px;
+    height: 1px;
+    background-color: #717171;
+    margin: 3px 0;
+}
+
+#logo-section{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+#youtube{
+    font-family: "Arial Black";
+    font-size: 13px;
+}
+
+#search-section{
+    display: flex;
+    align-items: center;
+}
+
+.fa-search{
+    border: 1px solid #E6E6E6;
+    background-color: #F8F8F8;
+
+    color: #828282;
+
+
+}
+
+#search-icons{
+    font-size: 15px;
+    padding: 7px 20px;
+    border: 1px solid #E6E6E6;
+    background-color: #F8F8F8;
+}
+
+#search{
+    border: 1px solid #E6E6E6;
+    padding: 4px 150px;
+    cursor: pointer;
+}
+
+#user-photo{
+    border-radius: 30%;
+
+}
+
+#photo,#user-photo{
+    margin-right: 20px;
+}
+
+#left-section{
+
+    width: 75px;
+}
+
+#right-section{
+    background-color: #F9F9F9;
+    margin-left: 5px;
+    width: 100%;
+}
+
+
+
+#home-button,#library-button,#subscriptions-button,#trending-button{
+    text-align: center;
+    padding: 15px 20px;
+    cursor: pointer;
+
+}
+
+
+.fa-home{
+    color: #F7040C;
+}
+
+#home{
+    color: #F7040C;
+}
+
+.fa-fire-alt,.fa-folder,.fa-window-restore{
+    color: #666666;
+}
+
+#trending,#subscriptions,#library{
+    color: #989896;
+}
+
+#trending,#subscriptions,#library,#home{
+    font-size: 8px;
+}
+
+#write,#check-section{
+    display: flex;
+}
+
+#check{
+    border-radius: 100%;
+    font-size: 10px;
+    padding: 0px 2px;
+    background-color: #9C9C9C;
+    color: #F9F9F9;
+}
+
+#text{
+    font-size: 10px;
+}
+
+#bold-text{
+    font-family: "Arial Black";
+    cursor: pointer;
+}
+
+#check-section,#low-text{
+    opacity: 0.8;
+}
+
+#right-section-photo {
+    margin-right: 10px;
+    border-radius: 100%;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+#write{
+    width: 200px;
+    margin-top: 10px;
+}
+
+#video{
+    border-style: hidden;
+    cursor: pointer;
+}
+
+#big-section{
+    display: flex;
+
+}
+
+#line2{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+#line1{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    margin-bottom: 50px;
+}
+
+#recommended-section{
+    padding: 20px;
+}
+
+.time1{
+    position: absolute;
+    font-size: 12px;
+
+    top: 206px;
+    background-color: #272229;
+}
+
+.time2{
+    position: absolute;
+    font-size: 12px;
+    top: 206px;
+    background-color: #272229;
+
+}
+.time3{
+    position: absolute;
+    font-size: 12px;
+    top: 206px;
+    background-color: #272229;
+
+}
+
+.time4{
+    position: absolute;
+    font-size: 12px;
+    top: 206px;
+    background-color: #272229;
+
+}
+
+.time5{
+    position: absolute;
+    font-size: 12px;
+    top: 444px;
+    background-color: #272229;
+
+}
+
+.time6{
+    position: absolute;
+    font-size: 12px;
+    top: 444px;
+    background-color: #272229;
+
+}
+
+.time7{
+    position: absolute;
+    font-size: 12px;
+    top: 444px;
+    background-color: #272229;
+
+}
+
+.time8{
+    position: absolute;
+    font-size: 12px;
+    top: 444px;
+    background-color: #272229;
+
+}
